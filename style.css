@@ -28,7 +28,7 @@ h2 {
 p {
   font-size: 16px;
   font-weight: normal;
-  line-height: 1.5px;
+  line-height: 30px;
 }
 .hero {
   background: var(--secondary-color);
@@ -60,4 +60,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+.project-description {
+  padding: 120px 60px;
 }
