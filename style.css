@@ -47,6 +47,16 @@ p {
   font-weight: normal;
   font-size: 24px;
 }
+.about-section h1 {
+  font-size: 64;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  line-height: 80px;
+}
+
 .btn-branding {
   background: var(--branding-colorcolor);
   border-radius: 4px;
