@@ -75,8 +75,8 @@ p {
   font-size: 14px;
 }
 
-.btn-branding {
-  background: var(--branding-colorcolor);
+.btn {
+  background: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -93,6 +93,33 @@ p {
 .project-description {
   padding: 100px 60px;
 }
+.logo {
+  max-width: 150px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
