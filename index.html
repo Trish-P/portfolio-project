@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Trishna is a front-end engineer based in the USA"
+    />
+    <title>Front-end developer - Trishna Patel</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,33 +26,40 @@
       href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Playfair+Display:wght@700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <div class="containter">
-        <nav class="d-flec justify-content-between">
-          <a href="/">
-        <img src="images/TP.jpg" class="logo d-block d-md" alt="" />
+    <div class="containter">
+      <nav class="d-flec justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/TP.jpg"
+            class="logo d-block d-md"
+            alt="Trishna Logo"
+          />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
-          <li><a href="/about.html">About</a>
+          <li class="active">
+            <a href="/about.html" title="About Trishna">About</a>
           </li>
-          <li><a href="/work.html">Work</a>
-          </li>
-          <li><a href="/contact.html">Contact </a>
-          </li>
+          <li><a href="/work.html" title="Trishna's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Trishna">Contact </a></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <div class="hero">
       <p>Hello, I am</p>
       <h1>Trish Patel</h1>
       <h2 class="mb-5">Front-end developer based in USA</h2>
       <div>
-        <a href="#" class="btn">Contact me</a>
+        <a href="#" class="btn" title="Contact me">Contact me</a>
       </div>
     </div>
     <p class="text-center mb-5">Featured Projects</p>
@@ -56,7 +67,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/meditation.jpg" class="img-fluid" alt="" />
+          <img
+            src="images/meditation.jpg"
+            class="img-fluid"
+            alt="Meditation project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -65,7 +80,7 @@
               Basic HTML landing page for an interior design blog. This project
               utilized basic HTML,CSS and JavaScript.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -78,16 +93,24 @@
               Location API to search for any city and display the current
               temperature and forecast for the next 5 days.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather-app-image.jpg" class="img-fluid" alt="" />
+          <img
+            src="images/weather-app-image.jpg"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary App preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -98,10 +121,44 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding-outline"
+              title="Contact Trishna"
+              >Contact me</a
+            >
           </div>
         </div>
       </div>
+      <footer>
+        <a
+          href="mailto:trishnamorar@gmail.com"
+          class="email-link"
+          title="Email Trishna"
+          >trishnamorar@gmail.com</a
+        >
+        <div class="social-links">
+          <a
+            href="https://github.com/Trish-P"
+            target="blank"
+            title="GitHub profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Trishna Patel and it
+          <a href="https://github.com/Trish-P/portfolio-project" target="_blank"
+            >open sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
